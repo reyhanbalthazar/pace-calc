@@ -28,7 +28,7 @@ A responsive running pace calculator built with React and Vite. Perfect for runn
 
 ## Screenshot
 
-![Pace Calculator Screenshot](public/icon.svg)
+![Pace Calculator Screenshot](public/screenshot.png)
 
 ## Quick Examples
 
