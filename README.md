@@ -1,16 +1,80 @@
-# React + Vite
+# Running Pace Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive running pace calculator built with React and Vite. Perfect for runners who want to calculate pace, time, and distance conversions instantly.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🏃‍♂️ Multiple Calculation Modes
+- **Time → Pace**: Calculate your pace per kilometer/mile from distance and finish time
+- **Pace → Time**: Determine your finish time based on distance and target pace
+- **Pace → Distance**: Find out how far you can run given a pace and duration
 
-## React Compiler
+### 🌍 Unit Flexibility
+- Switch seamlessly between kilometers and miles
+- Real-time calculations and conversions
+- Race comparisons adjust based on selected unit
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 💡 Smart Calculations
+- Real-time results as you type
+- Speed conversion displayed alongside pace (mph/km/h)
+- Race distance comparisons (5K, 10K, Half Marathon, Full Marathon)
+- Input validation and status indicators
 
-## Expanding the ESLint configuration
+### 🎨 User Experience
+- Clean, responsive interface using Tailwind CSS
+- Quick example buttons for common scenarios
+- Intuitive mode switching
+- "Clear All" functionality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+
+![Pace Calculator Screenshot](public/icon.svg)
+
+## Quick Examples
+
+Try these common running scenarios:
+- **10K in 50:00**: Calculate pace for a 10K in 50 minutes
+- **5:30/km for Half**: Find finish time for a half marathon at 5:30 pace
+- **6:00/km for 30min**: Determine distance covered running at 6:00 pace for 30 minutes
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd pacecalc
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser to [http://localhost:5173](http://localhost:5173)
+
+## Available Scripts
+
+- `npm run dev` - Starts the development server
+- `npm run build` - Creates a production build
+- `npm run preview` - Locally previews the production build
+- `npm run lint` - Runs ESLint to check for code issues
+
+## Tech Stack
+
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Package Manager**: npm
+
+## Contributing
+
+Feel free to submit issues or pull requests if you'd like to contribute to the project!
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
